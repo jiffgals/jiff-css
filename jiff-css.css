@@ -246,9 +246,7 @@
     transition: top 300ms, border-color 300ms color 300ms;
   }
 
-  input:focus ~ label, 
-  input:not(:placeholder-shown) ~ label
-  {
+  input:focus ~ label {
     top: calc(var(--y) * -1.7);
     font-size: 14px;
     color: green;
